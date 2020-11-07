@@ -1,11 +1,18 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: caudex, serif;
   margin: 2em;
+  background-color: #EFE595;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: quicksand, sans-serif;
+  font-style: bold;
+  color: #7E639E;
+  alignment: middle;
+}
+
+h2{
+  font-family: quicksand, sans-serif;
 }
