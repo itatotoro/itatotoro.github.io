@@ -9,10 +9,15 @@ body {
 h1 {
   font-family: quicksand, sans-serif;
   font-style: bold;
+  font-size: 48px;
   color: #7E639E;
-  alignment: middle;
+  text-align: center;
 }
 
 h2{
   font-family: quicksand, sans-serif;
+}
+
+.tot:hover{
+  filter: invert(1);
 }
