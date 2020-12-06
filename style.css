@@ -78,6 +78,6 @@ h2{
 /* for about */
 
 .about img{
-  width: 300px;
+  max-width: 300px;
 }
 
