@@ -1,9 +1,50 @@
 /* CSS files add styling rules to your content */
+/*palette:
+  indigo: #7e63a8
+  purple: #b467a6
+  yellow: #fdc94f
+  bg-peach: #f9ef9f
+  pink: #ef7c60
+*/
+
+#logo{
+  height: 165px;
+}
 
 body {
   font-family: caudex, serif;
-  margin: 2em;
   background-color: #EFE595;
+  text-align: center;
+}
+
+#subtext{
+  font-size: 1px;
+}
+
+.menu{
+  width: 30%;
+  margin: auto;
+  padding: 15px;
+  border: solid 2px #ef7c60;
+  border-radius: 10px;
+}
+
+.menu a{
+  padding: 20px;
+}
+
+.currently{
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+}
+
+#what{
+  float: left;
+  width: 30%;
+  border: solid 2px #ef7c60;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 h1 {
@@ -12,12 +53,19 @@ h1 {
   font-size: 48px;
   color: #7E639E;
   text-align: center;
+  margin-top: 10px;
 }
 
 h2{
   font-family: quicksand, sans-serif;
 }
 
-.tot:hover{
-  filter: invert(1);
+.socbar {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.socbar img{
+  width: 30px;
+  margin: 15px;
 }
