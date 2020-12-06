@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: caudex, serif;
+  font-family: caudex, perpetua, serif;
   background-color: #EFE595;
   text-align: center;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-  font-family: quicksand, sans-serif;
+  font-family: quicksand, helvetica, sans-serif;
   font-style: bold;
   font-size: 48px;
   color: #7E639E;
@@ -62,7 +62,7 @@ h1 {
 }
 
 h2{
-  font-family: quicksand, sans-serif;
+  font-family: quicksand, helvetica, sans-serif;
 }
 
 .socbar {
@@ -74,3 +74,10 @@ h2{
   width: 30px;
   margin: 15px;
 }
+
+/* for about */
+
+.about img{
+  width: 300px;
+}
+
