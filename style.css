@@ -73,7 +73,7 @@ h1 {
   font-family: quicksand, helvetica, sans-serif;
   font-style: bold;
   font-size: 48px;
-  color: #7E639E;
+  color: #7e63a8;
   text-align: center;
   margin-top: 10px;
 }
@@ -102,4 +102,57 @@ h2{
   max-width: 80%;
   max-height: 500px;
   margin: auto;
+}
+
+.bpost{
+  max-width: 800px;
+  margin: auto;
+}
+
+.bpost h2{
+  font: bold 36px caudex, serif;
+  color: #7e63a8;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+#h{
+  max-width: 80%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ef7c60;
+  font: italic 16px caudex, serif;
+  color: #ef7c60; 
+  border-radius: 98%;
+}
+
+#h h3{
+  font: italic 16px;
+  font-weight: regular;
+}
+
+.bpost .bullet {
+  height: 10px;
+  width: 10px;
+  background-color: #7e63a8;
+  border-radius: 50%;
+  margin:0px;
+  float: left;
+}
+
+.bpost #epigraph pre{
+  font-family: caudex, perpetua, serif;
+  background-color: #EFE595;
+  text-align: left;
+}
+
+.bpost .article p{
+  font-family: caudex, perpetua, serif;
+  background-color: #EFE595;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.bpost .article img{
+  max-width: 100%;
 }
