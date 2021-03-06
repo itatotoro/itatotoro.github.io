@@ -116,7 +116,7 @@ h2{
   border-bottom: 1px solid;
 }
 
-#h{
+.h{
   max-width: 80%;
   margin: auto;
   padding: 10px;
@@ -126,7 +126,7 @@ h2{
   border-radius: 98%;
 }
 
-#h h3{
+.h h3{
   font: italic 16px;
   font-weight: regular;
 }
@@ -140,7 +140,7 @@ h2{
   float: left;
 }
 
-.bpost #epigraph pre{
+.bpost .epigraph pre{
   font-family: caudex, perpetua, serif;
   background-color: #EFE595;
   text-align: left;
