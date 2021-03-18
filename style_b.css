@@ -9,10 +9,29 @@ body{
 #daisies{
   margin: auto;
   display: block;
+  cursor: pointer;
+}
+
+#hughug{
+  position: absolute;
+  z-index: 9;
+}
+
+#hughugheader{
+  margin: auto;
+  position: absolute;
+  cursor: move;
+  z-index: 10;
+}
+
+#hughugheader img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
 
 #poem{
-  font-family: 'Space Mono', monospace;
   width: 400px;
   margin: auto;
   text-align: center;
@@ -20,8 +39,51 @@ body{
   transition: opacity 2s;
 }
 
+#board{
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  background-color: #FDFEDF; 
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  border: 2px solid #FFBF1C;
+  border-radius: 98%;
+  z-index: 1;
+}
+
+#boardmsg{
+  text-align: center;
+  vertical-align: middle;
+}
+
 .pic{
+  display:block; 
+  position:absolute;
   opacity:0;
   transition: opacity 1s;
-  margin: 20px;
+  margin: 20px;  
+}
+
+footer{
+  display: block;
+  position: relative;
+  top: 3350px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+button{
+  background-color: #FFBF1C;
+  font-family: 'Schoolbell', cursive;
+  color: #FDFEDF;
+  padding: 20px;
+  border: 2px solid #FFBF1C;
+  border-radius: 95%;
+}
+
+button:hover{
+  background-color: #20BF55;
+  border: 2px solid #20BF55;
 }
