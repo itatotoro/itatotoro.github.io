@@ -69,6 +69,10 @@ a:hover{
   margin-right: 5%;
 }
 
+#what_r{
+  width: 70%;
+}
+
 h1 {
   font-family: quicksand, helvetica, sans-serif;
   font-style: bold;
