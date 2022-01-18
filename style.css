@@ -51,7 +51,7 @@ a:hover{
 }
 
 .currently{
-  max-width: 400px;
+  max-width: 450px;
   margin: auto;
   padding: 15px;
 }
@@ -161,3 +161,13 @@ h2{
   max-width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+
+  
+  #what{
+    width: 25%
+  }
+  #what_r {
+    width: 75%;
+  }
+}
