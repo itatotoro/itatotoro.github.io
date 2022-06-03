@@ -62,7 +62,7 @@ a:hover{
 
 #what{
   float: left;
-  width: 30%;
+  width: 20%;
   border: solid 2px #ef7c60;
   border-radius: 10px;
   padding: 15px;
@@ -86,27 +86,48 @@ h2{
   font-family: quicksand, helvetica, sans-serif;
 }
 
+footer{
+  clear: left;
+}
+
 .socbar {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .socbar img{
-  width: 30px;
-  margin: 15px;
+  max-width: 26px;
+  margin: 15px 15px 5px 15px;
 }
 
 /* for about */
 
-.about img{
-  width: 300px;
+.about{
+  margin: auto;
+  max-width: 800px;
 }
+
+.about img{
+  max-width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.about_desc{
+  text-align: left;
+  max-width: 800px;
+  margin-left: 20px;
+}
+
+/* for art */
 
 .gallery img{
   max-width: 80%;
   max-height: 500px;
   margin: auto;
 }
+
+/* for ramblings */
 
 .bpost{
   max-width: 800px;
@@ -169,5 +190,22 @@ h2{
   }
   #what_r {
     width: 75%;
+  }
+  
+  .about{
+    width: 80%;
+  }
+
+  .about img{
+    display: block;
+    margin-left: 40px;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .about_desc{
+    clear: left;
+    text-align: center;
   }
 }
